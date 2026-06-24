@@ -1,0 +1,113 @@
+.clicker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/* Уровни */
+.clicker__levels {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clicker__level-count {
+    margin-left: 10px;
+    color: #ff477e;
+}
+
+progress {
+    width: 1000px;
+    height: 16px;
+    border: 2px solid transparent;
+    /* border-left: 1px solid white; */
+    border-right: 1px solid white;
+}
+
+progress::-webkit-progress-bar {
+    border: none;
+    background-color: transparent;
+    background-color: #16203b;
+}
+
+progress::-webkit-progress-value {
+    background-color: #ff477e;
+}
+
+.level-progress2::-webkit-progress-value {
+    background-color: #ffe347;
+}
+
+.level-progress3::-webkit-progress-value {
+    background-color: #47acff;
+}
+
+.level-progress4::-webkit-progress-value {
+    background-color: #a647ff;
+}
+
+.level-progress5::-webkit-progress-value {
+    background-color: #f02626;
+}
+
+.level-count2 {
+    color: #ffe347;
+}
+
+.level-count3 {
+    color: #47acff;
+}
+
+.level-count4 {
+    color: #a647ff;
+}
+
+.level-count5 {
+    color: #f02626;
+}
+
+.clicker__board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+}
+
+.clicker__button {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 40px;
+
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+
+    font-family: 'Montserrat', serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+
+    transition: 0.05s;
+}
+
+.clicker__button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.clicker__button:active {
+    transform: scale(0.95);
+}
+
+.clicker__button:focus {
+    outline: none;
+}

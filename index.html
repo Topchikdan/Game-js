@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Кликер</title>
+</head>
+<body>
+    <div class="page">
+        <div class="clicker">
+            <div class="clicker__bonus">
+                <h2 class="clicker__bonus-title">Бонусы</h2>
+                <div class="clicker__bonus-list">
+                    <!-- Бонусные кнопки генерируются динамически через JS -->
+                </div>
+            </div>
+
+            <div class="clicker__levels">
+                <p class="clicker__level">Уровень: <span class="clicker__level-count">1</span></p>
+                <progress class="clicker__progress" value="0" max="10"></progress>
+            </div>
+
+            <div class="clicker__board">
+                <h1 class="clicker__score">0</h1>
+                <button class="clicker__button">Жми</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>
