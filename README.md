@@ -45,7 +45,7 @@ clicker/
 Сборка не нужна, но файл открывается **только через локальный сервер** из-за ES-модулей (`type="module"`):
 
 # Клонировать репозиторий
-git clone https://github.com/your-username/clicker.git
+git clone https://github.com/Topchikdan/Game-js.git
 
 # Перейти в папку
 cd clicker
